@@ -11,7 +11,8 @@ public class _07_ReqBits {
     }
 
     public static void main(String[] args) {
-        int num1 = 5, num2 = 9;
-        System.out.println("Converting " + num1 + " to " + num2 + " requires " + Convert(num1, num2) + " bits");
+        int num1 = 7, num2 = 8;
+        System.out
+                .println("Converting " + num1 + " to " + num2 + " requires flipping" + Convert(num1, num2) + " bits.");
     }
 }
