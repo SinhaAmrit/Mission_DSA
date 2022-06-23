@@ -1,3 +1,4 @@
+// 04. Set i th bit.
 public class _04_SetBit {
     public static void main(String[] args) {
         int num = 2, pos = 3;
