@@ -15,6 +15,10 @@
 /Java/Bit_Manipulation/*.zip
 /Java/Bit_Manipulation/*.tar.gz
 /Java/Bit_Manipulation/*.rar
+/Java/Bit_Manipulation/*.json
+/Java/Bit_Manipulation/*.code-workspace
+
+/C++/Bit_Manipulation/*.json
+/C++/Bit_Manipulation/*.code-workspace
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
