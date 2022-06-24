@@ -23,8 +23,7 @@ public class _11_Unique2 {
         for (int i = 0; i < arr.length; i++)
             if (checkSetBitPos(arr[i], setbitpos))
                 firstuniqueno ^= arr[i];
-        System.out.println(
-                "1st unique number is : " + firstuniqueno + "\n2nd unique number is : " + (xorsum ^ firstuniqueno));
+        System.out.println("1st unique number is : " + firstuniqueno + "\n2nd unique number is : " + (xorsum ^ firstuniqueno));
     }
 
     public static void main(String[] args) {
