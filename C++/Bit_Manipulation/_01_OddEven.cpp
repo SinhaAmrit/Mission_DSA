@@ -1,3 +1,4 @@
+// 01} Check a number if it's odd or even.
 #include <iostream>
 using namespace std;
 int main()
