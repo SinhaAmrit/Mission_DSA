@@ -1,3 +1,8 @@
+/*
+[NOTE: Vector is array implementation which increases its capacity in runtime.
+It creates a new array with double of previous size, copies the values into it,
+and dumps the older array.]
+*/
 #include <iostream>
 #include <vector> // Header file for vector
 
