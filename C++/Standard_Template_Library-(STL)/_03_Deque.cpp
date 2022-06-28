@@ -3,7 +3,7 @@
 Deque provides functionality for adding and removing elements from the beginning and end of an array.]
 */
 #include <iostream>
-#include <deque> // Header filoe for deque
+#include <deque> // Header file for deque
 
 using namespace std;
 int main()
