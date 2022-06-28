@@ -1,3 +1,6 @@
+/*
+[NOTE: Implementation of the Arrays in STL is same as the static array. so, it is not preferred in CP.]
+*/
 #include <iostream>
 #include <array> // Header File for arrays
 
