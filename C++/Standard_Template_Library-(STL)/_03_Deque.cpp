@@ -10,7 +10,7 @@ int main()
 {
     deque<int> q1;                // method 1 for deque initialization of datatype int.
     deque<int> q2(5, 2);          // method 2 for deque initialization for known size & sample data.
-    deque<int> q3 = {0, 5, 6, 8}; // method 3 for deque initialization for known size & sample data.
+    deque<int> q3 = {0, 5, 6, 8}; // method 3 for deque initialization for known size & known data.
     deque<int> q4(q3);            // copy deque q3 to q4
     q4.push_front(2);             // Add 2 to deque q4 at first position.
     q4.push_back(3);              // Add 3 to deque q4 at last position.
