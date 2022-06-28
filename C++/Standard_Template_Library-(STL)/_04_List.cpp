@@ -1,5 +1,5 @@
 /*
-[NOTE: List is an array implementation of Doubly Linked Lists.
+[NOTE: List is an implementation of Doubly Linked Lists.
 List provides functionality for adding and removing elements from the beginning and end of a list.]
 */
 #include <iostream>
