@@ -4,12 +4,12 @@
 2} Set is the collection of unique elements in the collection.
 3} one can either add or remove elements from the collection but can't update.
 4} Set returns elements in the sorted order.
-5 Set is slower than unsorted Set.
+5} Set is slower than unsorted Set.
 ]
 */
 
 #include <iostream>
-#include <set> // Header file for set implementation.
+#include <set>                                                     // Header file for set implementation.
 
 using namespace std;
 int main()

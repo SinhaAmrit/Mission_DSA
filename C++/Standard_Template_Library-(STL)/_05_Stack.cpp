@@ -2,12 +2,12 @@
 [NOTE: Stack is the implementation of an array following LIFO (Last In First Out) algorithm]
 */
 #include <iostream>
-#include <stack> // Header file for stack
+#include <stack>                                     // Header file for stack
 
 using namespace std;
 int main()
 {
-    stack<string> s;
+    stack<string> s;                                 // Stack "a" declaration
     s.push("hello! ");
     s.push("how ");
     s.push("are ");

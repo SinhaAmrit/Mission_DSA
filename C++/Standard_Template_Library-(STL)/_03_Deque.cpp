@@ -8,7 +8,7 @@ Deque provides functionality for adding and removing elements from the beginning
 using namespace std;
 int main()
 {
-    deque<int> q1;                // method 1 for deque initialization of datatype int.
+    deque<int> q1;                // method 1 for deque declaration of datatype int.
     deque<int> q2(5, 2);          // method 2 for deque initialization for known size & sample data.
     deque<int> q3 = {0, 5, 6, 8}; // method 3 for deque initialization for known size & known data.
     deque<int> q4(q3);            // copy deque q3 to q4

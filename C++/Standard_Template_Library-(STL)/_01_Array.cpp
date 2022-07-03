@@ -7,9 +7,9 @@
 using namespace std;
 int main()
 {
-    int basic_arr[4] = {0, 1, 2, 3};                          // Basic array
+    int basic_arr[4] = {0, 1, 2, 3};                          // Basic array initialization for known size & data.
     array<int, 6> arr = {0, 1, 2, 3, 4};                      // STL Array of size 6, datatype is int type
-    cout << "Size: " << arr.size() << endl;                   // Print sizeof(array)
+    cout << "Size: " << arr.size() << endl;                   // Print size of(array)
     cout << "First element: " << arr.front() << endl;         // Print first array Element
     cout << "Last element: " << arr.back() << endl;           // Print last array Element
     cout << "Element at index 3: " << arr.at(3) << endl;      // Print element at index 3

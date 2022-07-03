@@ -9,7 +9,7 @@ and dumps the older array.]
 using namespace std;
 int main()
 {
-    vector<int> v1;                                     // method 1 for vector initialization of datatype int.
+    vector<int> v1;                                     // method 1 for vector declaration of datatype int.
     vector<int> v2(6, 1);                               // method 2 for vector initialization for known size & sample data.
     vector<int> v3 = {0, 1};                            // method 3 for vector initialization for known data.
     vector<int> v4(v3);                                 // Copy vector v3 to vector v4.

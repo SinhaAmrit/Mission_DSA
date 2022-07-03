@@ -2,7 +2,7 @@
 [NOTE: Queue is the implementation of an array following FIFO (First In First Out) algorithm]
 */
 #include <iostream>
-#include <queue> // Header file for queue implementation
+#include <queue>                                    // Header file for queue implementation
 
 using namespace std;
 int main()

@@ -13,7 +13,7 @@ int main()
     m[1] = "Amrit";                                                         // Inserting elements in map.
     m[2] = "Sinha";
     m[13] = "Buxar";
-    m.insert({5, "Raju"});                                                  // Another way to insert elements in map.
+    m.insert({5, "Raju"});                                                  // Another way to insert element in map.
     for (auto i : m)
         cout << i.first << " " << i.second << endl;                         // Print map elements.
     m.erase(13);                                                            // Remove element from the map at given key.

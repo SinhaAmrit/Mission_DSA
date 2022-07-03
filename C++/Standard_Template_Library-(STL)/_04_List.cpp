@@ -8,7 +8,7 @@ List provides functionality for adding and removing elements from the beginning 
 using namespace std;
 int main()
 {
-    list<int> l1;                // method 1 for list initialization of datatype int.
+    list<int> l1;                // method 1 for list declaration of datatype int.
     list<int> l2(5, 2);          // method 2 for list initialization for known size & sample data.
     list<int> l3 = {0, 5, 6, 8}; // method 3 for list initialization for known size & known data.
     list<int> l4(l3);            // copy list l3 to l4
