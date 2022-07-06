@@ -14,7 +14,7 @@
 import java.util.*;
 
 public class _01_Factorial {
-    
+
     private static int factorial(int num) {
         if (num == 0)
             return 1;
@@ -26,6 +26,7 @@ public class _01_Factorial {
         System.out.print("Enter a number: ");
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
+        sc.close();
         if (num < 0)
             System.out.println("Error");
         else
