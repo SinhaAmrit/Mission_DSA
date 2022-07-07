@@ -17,7 +17,7 @@ Output:
 729
 
 Constraints:
-0 <= X <= 10
+0 <= N <= 10
 0 <= num <= 10
 */
 #include <iostream>
